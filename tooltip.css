@@ -1,0 +1,29 @@
+.vid {
+    position:absolute;
+    display:flex;
+    width:180px;
+    flex-direction:row;
+    align-items:center;
+    pointer-events:none;
+    background-color:rgb(243, 243, 243);
+    padding: 5px 5px 5px 5px;
+    opacity:0;
+    transition:opacity 0.15s;
+    top:10px;
+    left:10px;
+}
+
+.vid div {
+    line-height:7px;
+    font-size:10px;
+    font-weight:500;
+    color:rgb(123, 123, 123);
+}
+
+.vid img {
+    margin-right:18px;
+}
+
+.logo:hover .vid {
+    opacity:1;
+}

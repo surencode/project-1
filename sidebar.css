@@ -1,0 +1,44 @@
+.sidebar {
+    position:fixed;
+    top:40px;
+    left:0px;
+    bottom:0px;
+    background-color:white;
+    width:50px;
+    border-right-width:1px;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-style:solid;
+    border-color:rgb(217, 216, 216);
+    z-index:200;
+}
+
+.sl {
+    background-color:white;
+    height:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.sl:hover {
+    cursor:pointer;
+    background-color:rgb(230, 230, 230);
+}
+
+.sl img {
+    height:15px;
+    margin-bottom:4px;
+}
+
+.q {
+    font-family:Roboto,Arial;
+    font-size:7px;
+}
+
+
+
+
+
